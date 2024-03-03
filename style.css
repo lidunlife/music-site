@@ -1,0 +1,505 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1440px;
+    padding-left: 50px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 777px;
+    background-color: rgba(25, 25, 25, 1);
+    height: 119px;
+}
+
+header ul {
+    display: flex;
+    gap: 40px;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    transition: 500ms;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+a:hover {
+    color: rgba(17, 141, 168, 1);
+    font-size: larger;
+}
+
+main {
+    background-color: rgba(25, 25, 25, 1);
+}
+
+.section-1 {
+    display: flex;
+    gap: 60px;
+}
+
+.section-1 h1 {
+    font-family: DM Sans;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 88px;
+    letter-spacing: 3.200000047683716px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+mark {
+    background-color: rgba(25, 25, 25, 1);
+    color: white;
+    font-weight: bolder;
+}
+
+.section-1-right {
+    display: flex;
+    flex-direction: column;
+    gap: 74px;
+}
+
+.section-1-right p {
+    font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white
+}
+
+i {
+    font-size: 29px;
+    margin-top: 16px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.section-2-top h2 {
+    font-family: DM Sans;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 79px;
+    letter-spacing: 2.880000114440918px;
+    text-align: left;
+    color: white;
+}
+
+.btn1 {
+    width: 178px;
+    height: 51px;
+    border-radius: 6px;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    background-color: rgba(17, 141, 168, 1);
+    color: white;
+    border: none;
+}
+
+.section-2-top {
+    display: flex;
+    gap: 650px;
+    padding-top: 100px;
+    align-items: center;
+}
+
+.section-2 {
+    margin-left: 20px;
+    height: 2088px;
+}
+
+.card-1 {
+    width: 1300px;
+    height: 545px;
+    border-radius: 32px;
+    background-color: rgba(0, 0, 0, 1);
+    margin-top: 39.56px;
+    display: flex;
+    gap: 53px;
+    padding: 40px 40px;
+}
+
+.card-1-right h3 {
+
+    background-color: rgba(25, 25, 25, 1);
+    width: 73px;
+    height: 27px;
+    border-radius: 6px;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: white;
+    text-align: center;
+
+}
+
+.card-1-right h4 {
+    font-family: DM Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(17, 141, 168, 1);
+    margin-top: 48px;
+}
+
+.card-1-right h2 {
+    font-family: DM Sans;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 2.559999942779541px;
+    text-align: left;
+    color: white;
+    margin-top: 18px;
+}
+
+.card-1-right p {
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 28px;
+}
+
+.btn2 {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    width: 208px;
+    height: 51px;
+    border-radius: 6px;
+    background-color: rgba(17, 141, 168, 1);
+    border: none;
+    color: white;
+    margin-top: 18px;
+
+}
+
+.card-2-right h3 {
+
+    background-color: rgba(25, 25, 25, 1);
+    width: 136px;
+    height: 27px;
+    border-radius: 6px;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: white;
+    text-align: center;
+
+}
+
+.card-2-right h4 {
+    font-family: DM Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(17, 141, 168, 1);
+    margin-top: 48px;
+}
+
+.card-2-right h2 {
+    font-family: DM Sans;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 2.559999942779541px;
+    text-align: left;
+    color: white;
+    margin-top: 18px;
+}
+
+.card-2-right p {
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 28px;
+}
+
+.section-3 {
+    margin-left: 20px;
+    height: 1530.44px;
+}
+
+.section-3-top {
+    width: 1400px;
+    height: 943px;
+    display: flex;
+    gap: 103px;
+}
+
+.regist {
+    height: 587px;
+}
+
+.regist-box {
+    width: 1300px;
+    height: 387px;
+    border-radius: 32px;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.img1 {
+    width: 650px;
+    height: 743px;
+}
+
+.section-3-top-left h4 {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    padding-left: 15px;
+    color: rgba(17, 141, 168, 1);
+}
+
+.section-3-top-left h2 {
+    font-family: DM Sans;
+    font-size: 65px;
+    font-weight: 400;
+    line-height: 79px;
+    letter-spacing: 2.880000114440918px;
+    text-align: left;
+    color: white;
+}
+
+.section-3-top-left p {
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 28px;
+}
+
+.section-3-top-left {
+    padding-top: 248px;
+
+}
+
+.regist-box-left h4 {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(17, 141, 168, 1);
+}
+
+.regist-box-left h2 {
+    font-family: DM Sans;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 79px;
+    letter-spacing: 2.880000114440918px;
+    text-align: left;
+    color: white;
+
+}
+
+.regist-box-left {
+    padding: 59px 60px;
+}
+
+.regist-box {
+    display: flex;
+    gap: 227px;
+    align-items: center;
+}
+
+input {
+    width: 522px;
+    height: 82px;
+    border-radius: 6px;
+    background-color: rgba(25, 25, 25, 1);
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    padding: 26px 19px;
+    color: rgba(255, 255, 255, 0.7);
+    border: none;
+    margin-top: 20px;
+}
+
+.btn3 {
+    font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    background-color: rgba(17, 141, 168, 1);
+    border-radius: 6px;
+    color: white;
+    width: 87px;
+    height: 48px;
+    margin-top: 20px;
+}
+
+.section-4 {
+    width: 1400px;
+    height: 701px;
+    margin-left: 20px;
+
+}
+
+.comments {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+
+}
+
+.comment-1 {
+    width: 423px;
+    height: 321px;
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    padding: 34px 50px;
+
+}
+
+.comment-1 h2 {
+    font-family: DM Sans;
+    font-size: 39px;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+
+}
+
+.comment-1 p {
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+.fa-solid {
+    font-size: 19px;
+}
+
+footer {
+    background-color: rgba(25, 25, 25, 1);
+    height: 438px;
+    padding-top: 100px;
+    display: flex;
+    
+    
+}
+
+.img2 {
+    padding-left: 40px;
+}
+
+.icns {
+    display: flex;
+    gap: 11px;
+    padding-left: 40px;
+}
+
+.link-1 ul li {
+    list-style: none;
+    padding-top: 10px;
+
+}
+
+.link-1 ul li a {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-decoration: none;
+    color: white;
+    padding-left:239px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 80%;
+    
+}
+.logo-icons{
+    padding-top: 9px;
+}
+.link-2 ul li {
+    list-style: none;
+    padding-top: 10px;
+
+}
+
+.link-2 ul li a {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-decoration: none;
+    color: white;
+    padding-left:239px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 80%;
+}
+.icons-footer{
+    display: flex;
+    gap: 17px;
+    padding-left: 16px;
+  
+}
+.icons-footer i{
+    font-size: 42px;
+}
