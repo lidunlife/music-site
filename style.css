@@ -120,6 +120,17 @@ i {
     color: white;
     border: none;
 }
+.btn1:hover{
+    background-color: black;
+    color:white ;
+
+}
+.btn2:hover{
+    background-color: rgb(189, 189, 128);
+    color:black ;
+    
+
+}
 
 .section-2-top {
     display: flex;
@@ -440,8 +451,8 @@ footer {
     height: 438px;
     padding-top: 100px;
     display: flex;
-    
-    
+
+
 }
 
 .img2 {
@@ -468,14 +479,16 @@ footer {
     letter-spacing: 0em;
     text-decoration: none;
     color: white;
-    padding-left:239px;
+    padding-left: 239px;
     color: rgba(255, 255, 255, 1);
     opacity: 80%;
-    
+
 }
-.logo-icons{
+
+.logo-icons {
     padding-top: 9px;
 }
+
 .link-2 ul li {
     list-style: none;
     padding-top: 10px;
@@ -490,16 +503,18 @@ footer {
     letter-spacing: 0em;
     text-decoration: none;
     color: white;
-    padding-left:239px;
+    padding-left: 239px;
     color: rgba(255, 255, 255, 1);
     opacity: 80%;
 }
-.icons-footer{
+
+.icons-footer {
     display: flex;
     gap: 17px;
     padding-left: 16px;
-  
+
 }
-.icons-footer i{
+
+.icons-footer i {
     font-size: 42px;
 }
